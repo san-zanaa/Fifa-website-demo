@@ -165,7 +165,29 @@ header {
     padding-left: 0;
     margin-left: 0;
 }
+.info-button {
+    display: block;
+    margin: 40px auto 20px auto;
+    height: 55px;
+    width: 270px;
+    font-size: 18px;
+    padding: 0 20px;
+    background: #F4C430;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
 
+.info-button span {
+    font-size: 25px;
+}
+.info-button:hover {
+    background: #dfb000;
+}
 
 
 
