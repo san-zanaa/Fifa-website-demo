@@ -190,18 +190,23 @@ header {
 .table-container {
     width: 90%;
     margin: 0 auto 30px;
+    padding: 30px;
     border-collapse: collapse;
+    border : 1px solid gray;
+    border-radius: 10px;
 }
 .texts h1 {
     font-size: 30px;
     margin-bottom: 8px;
 }
 .texts p {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 .custom-table {
-    width: 100%;
+    width: 99%;
     border-collapse: collapse;
+    margin-bottom: 8px ;
+    table-layout: fixed;
 }
 .custom-table th {
     background-color: #A73131;
@@ -211,4 +216,23 @@ header {
     border : 1px solid black;
     padding: 15px;
     text-align: left;
+}
+.custom-table td:first-child {
+    font-weight: 700;
+    color: #BA1A1A;
+}
+.custom-table td:nth-child(2) {
+    font-weight: bold;
+}
+.custom-table td:nth-child(3) {
+    color: #505F76;
+}
+.custom-table td:last-child {
+    font-weight: bold;
+}
+.opening {
+    color: #F60000;
+}
+.final {
+    color: #BDA004;
 }
