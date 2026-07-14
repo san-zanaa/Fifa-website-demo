@@ -167,7 +167,7 @@ header {
 }
 .info-button {
     display: block;
-    margin: 40px auto 20px auto;
+    margin: 40px auto 50px auto;
     height: 55px;
     width: 270px;
     font-size: 18px;
@@ -181,15 +181,34 @@ header {
     border: none;
     cursor: pointer;
 }
-
 .info-button span {
     font-size: 25px;
 }
 .info-button:hover {
     background: #dfb000;
 }
-
-
-
-
-
+.table-container {
+    width: 90%;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+}
+.texts h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.texts p {
+    margin-bottom: 8px;
+}
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.custom-table th {
+    background-color: #A73131;
+    color: white;
+}
+.custom-table th, .custom-table td {
+    border : 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
